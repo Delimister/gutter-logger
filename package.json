@@ -1,0 +1,20 @@
+{
+  "name": "gutter-logger",
+  "version": "1.0.0",
+  "description": "A versatile logging module for TypeScript projects.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": ["logging", "typescript"],
+  "author": "Edward Nguyen",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/delimister/gutter-logger.git"
+  },
+  "bugs": {
+    "url": "https://github.com/delimister/gutter-logger/issues"
+  }
+}
