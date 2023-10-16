@@ -4,7 +4,7 @@ import useGutterPolyfill from '../dist/polyfill';
 const apiUrl = 'https://your-logdrain-api-endpoint.com';
 
 // Initialize the console polyfill using useGutterPolyfill
-const gutter = useGutterPolyfill(apiUrl, 'app-key');
+useGutterPolyfill(apiUrl, 'app-key');
 
 // Now, both console.log, console.error, etc., will use the Gutter logger as their underlying mechanism
 console.log('This is a log message via Gutter');
