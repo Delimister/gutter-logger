@@ -1,4 +1,4 @@
-import useGutterPolyfill from '../dist/polyfill';
+import useGutterPolyfill from 'gutter-logger';
 
 // Replace this with your actual API URL
 const apiUrl = 'https://your-logdrain-api-endpoint.com';

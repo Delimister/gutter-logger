@@ -1,4 +1,4 @@
-import {Gutter, GutterError} from "../dist/Gutter";
+import {Gutter, GutterError} from "gutter-logger";
 
 const logger = new Gutter('https://your-logdrain-api-endpoint.com', 'app-key-here', true, true);
 
